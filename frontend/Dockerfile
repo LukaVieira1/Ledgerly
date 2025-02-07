@@ -11,11 +11,14 @@ COPY yarn.lock ./
 # Install dependencies
 RUN yarn install
 
+# Build the project
+RUN yarn build
+
 # Copy the rest of the files
 COPY . .
 
 # Expose the port that Next.js will use
 EXPOSE 3000
 
-# Command to start the development server
-CMD ["yarn", "dev"] 
+# Command to start the production server
+CMD ["yarn", "start"] 
