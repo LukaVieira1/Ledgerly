@@ -3,6 +3,8 @@ FROM node:18-alpine
 # Install necessary dependencies
 RUN apk add --no-cache openssl libc6-compat netcat-openbsd
 
+
+
 WORKDIR /app
 
 # Copy configuration files first
@@ -31,6 +33,9 @@ COPY . .
 
 # Generate Prisma client
 RUN npx prisma generate
+
+# Make scripts executable
+RUN chmod +x /app/scripts/*.sh
 
 EXPOSE 5050
 EXPOSE 5555
