@@ -17,7 +17,7 @@ Ledgerly is a store management system designed to help small businesses track th
 
 ## 📝 Demo
 
-You can see the live demo [here](https://ledgerly.lukavieira.tech/)
+You can see the live demo [here](https://ledgerly.lukavieira.com/)
 
 ## 📝 Demo Users
 

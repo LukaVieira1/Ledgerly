@@ -117,12 +117,12 @@ export default function Login() {
             <p className="text-secondary-600">
               Desenvolvido por{" "}
               <a
-                href="https://lukavieira.tech"
+                href="https://lukavieira.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium text-primary-600 hover:text-primary-500"
               >
-                lukavieira.tech
+                lukavieira.com
               </a>
             </p>
           </div>
